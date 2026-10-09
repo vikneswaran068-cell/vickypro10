@@ -1,0 +1,62 @@
+# San Joaquin Valley Town Hall
+
+# Third Column Assignment
+
+# Total: 50 Marks
+
+TEST 1
+Description: index.html exists
+Expected: index.html
+Marks: 5
+
+TEST 2
+Description: CSS file exists
+Expected: styles/Ex10_main.css
+Marks: 5
+
+TEST 3
+Description: Main element exists
+Expected: <main>
+Marks: 5
+
+TEST 4
+Description: Section element exists
+Expected: <section>
+Marks: 5
+
+TEST 5
+Description: Multiple aside elements exist
+Expected: At least 2 <aside> elements
+Marks: 5
+
+TEST 6
+Description: Third column contains heading/content
+Expected: Additional aside containing heading/content
+Marks: 5
+
+TEST 7
+Description: Aside width property exists
+Expected: width property inside aside CSS
+Marks: 5
+
+TEST 8
+Description: Aside uses float property
+Expected: float property inside aside CSS
+Marks: 5
+
+TEST 9
+Description: Footer clears floated columns
+Expected: clear: both
+Marks: 5
+
+TEST 10
+Description: Original Town Hall content remains
+Expected:
+San Joaquin Valley Town Hall
+Our Mission
+Speaker of the Month
+Our Ticket Packages
+Guest speakers
+Marks: 5
+
+TOTAL: 50

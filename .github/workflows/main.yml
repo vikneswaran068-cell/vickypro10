@@ -1,0 +1,25 @@
+name: Third Column Autograder
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          test -f index.html
+          test -f styles/Ex10_main.css
+          test -f test.sh
+
+      - name: Fix line endings
+        run: sed -i 's/\r$//' test.sh
+
+      - name: Run tests
+        run: bash test.sh
